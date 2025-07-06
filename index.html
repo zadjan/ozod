@@ -3,7 +3,14 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Ikromov</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <title>Akademnashr</title>
         <!-- Fonts  -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -38,7 +45,7 @@
     </head>
     <body>
         <!-- Header  -->
-        <header class="header ">
+        <header class="header">
             <div class="container header-container">
                 <a href="index.html" data-aos="fade-down-right">
                     <img
@@ -58,7 +65,7 @@
                                     href="#"
                                     data-aos="fade-up"
                                     data-aos-duration="400"
-                                    >Bosh sahifa</a
+                                    >BOSH SAHIFA</a
                                 >
                             </li>
                             <li>
@@ -67,7 +74,7 @@
                                     href="#"
                                     data-aos="fade-up"
                                     data-aos-duration="800"
-                                    >Kitoblar</a
+                                    >KITOBLAR</a
                                 >
                             </li>
                             <li>
@@ -76,7 +83,7 @@
                                     href="#"
                                     data-aos="fade-up"
                                     data-aos-duration="1200"
-                                    >Aksialar</a
+                                    >AKSIYALAR</a
                                 >
                             </li>
                             <li>
@@ -85,14 +92,14 @@
                                     href="#"
                                     data-aos="fade-up"
                                     data-aos-duration="1600"
-                                    >Kontaktlar</a
+                                    >KONTAKTLAR</a
                                 >
                             </li>
                         </ul>
                     </nav>
-                    <a class="orenge-boton" href="#" data-aos="fade-down-left"
-                        >Ro'yhatdan o'tish</a
-                    >
+                    <div data-aos="fade-down-left">
+                        <a class="orenge-boton" href="#">Ro'yhatdan o'tish</a>
+                    </div>
                 </div>
             </div>
         </header>
@@ -103,7 +110,9 @@
                 <div class="container hero-container">
                     <!-- Content  -->
                     <div class="hero-content" data-aos="fade-right">
+                        <div class="ciziq"></div>
                         <h2 class="hero-taytl">
+                            <br />
                             Pythonda dasturlash <br />
                             asoslari
                         </h2>
@@ -115,8 +124,8 @@
                         </p>
                         <a class="orenge-boton" href="#">Buyurtma berish</a>
                     </div>
-                    <div data-aos="fade-left" class="box" >
-                        <img 
+                    <div data-aos="fade-left" class="box">
+                        <img
                             class="hero-rasm"
                             src="./images/python-book .jpg"
                             alt="book"
@@ -129,7 +138,9 @@
             <!-- WAY  -->
             <section class="way">
                 <div class="container">
+                    <div class="ciziq"></div>
                     <h1 class="taytl" data-aos="zoom-in">
+                        <br />
                         Nega aynan <br />
                         Akademnashr?
                     </h1>
@@ -215,7 +226,7 @@
                     </div>
                     <div data-aos="flip-down">
                         <img
-                        class="cta-rasm"
+                            class="cta-rasm"
                             src="./images/books.jpg"
                             width="440"
                             height="440"
@@ -240,44 +251,47 @@
                     </div>
                     <ul class="socil">
                         <li>
-                            <a
-                                href="#"
-                                data-aos="zoom-in-left"
-                                data-aos-duration="1000"
-                            >
-                                <img
+                            <div data-aos="zoom-in-left">
+                                <a href="#" class="img1" data-aos-duration="1000">
+                                    <!-- <img
+                                    class="img1"
                                     src="./images/icon-telegram.svg"
                                     width="24"
                                     height="24"
                                     alt="telegram"
-                                />
+                                /> -->
+                                    <i class="fa-brands fa-telegram"></i>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div data-aos="zoom-in-left">
+                                <a href="#" class="img1" data-aos-duration="1400">
+                                    <!-- <img
+                                        class="img1"
+                                        src="./images/icon-facebook.svg"
+                                        width="24"
+                                        height="24"
+                                        alt="facbook"
+                                /> -->
+                                <i class="fa-brands fa-square-facebook"></i>
                             </a>
+
+                            </div>
                         </li>
                         <li>
-                            <a
-                                href="#"
-                                data-aos="zoom-in-left"
-                                data-aos-duration="1400"
-                            >
-                                <img
-                                    src="./images/icon-facebook.svg"
-                                    width="24"
-                                    height="24"
-                                    alt="facbook"
-                            /></a>
-                        </li>
-                        <li>
-                            <a
-                                href="#"
-                                data-aos="zoom-in-left"
-                                data-aos-duration="1800"
-                            >
-                                <img
-                                    src="./images/icon-instagram.svg"
-                                    width="24"
-                                    height="24"
-                                    alt="instagram"
-                            /></a>
+                            <div data-aos="zoom-in-left">
+                                <a href="#" class="img1" data-aos-duration="1800">
+                                    <!-- <img
+                                        class="img1"
+                                        src="./images/icon-instagram.svg"
+                                        width="24"
+                                        height="24"
+                                        alt="instagram"
+                                /> -->
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                            </div>
                         </li>
                     </ul>
                 </div>
